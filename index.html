@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Martin Juice</title>
+    <meta
+      name="description"
+      content="Each cup is made to order by hand for every single customer using real fresh fruit every time, no artificial flavours no cheap ingredients no tricks."
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+       
+        <div class="brand">
+          <a href="#" target="_blank"> <img src="imgs/logo.png" class="logo" /></a>
+          <a href="#" target="_blank"><p class="brand-name">Martin Juice</p></a>
+        </div>
+        <a href="#order-now" class="btn-order">Order Now</a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#" onclick="view_menu()">Menu</a></li>
+          <li><a href="#sec3">About</a></li>
+          <li><a href="#contact">Contanct</a></li>
+        </ul>
+        <div class="togle" id="togle" onclick="myFunction()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
+      </nav>
+      
+
+    </header>
+    <main>
+      <div class="text"><h1 class="txt1">Welcome To </h1></div>
+      <div class="text"><h1 class="txt2"> Martin Juice</h1></div>
+      <section class="sec1">
+        <div class="slideshow-container">
+          <div class="slides">
+            <img src="imgs/img11.png" width="100%" />
+          </div>
+          <div class="slideshow-container">
+            <div class="slides">
+              <img src="imgs/img2.png" width="100%" />
+            </div>
+          <div class="slides">
+            <img src="imgs/img3.png" width="100%" />
+          </div>
+          <div class="slides">
+            <img src="imgs/img5.png" width="100%" />
+          </div>
+          <div class="slides">
+            <img src="imgs/img7.png" width="100%" />
+          </div>
+          <div class="slides">
+            <img src="imgs/img8.png" width="100%" />
+          </div>
+        </div>
+      </section>
+      <section class="order-now" id="order-now">
+        <div class="sec2" id="pickup" onclick="showInitialPrompt()">
+          <h2>Pick up</h2>
+          <p>Order Now</p>
+        </div>
+        <div class="sec2" id="delivery" onclick="showUserDetailsPrompt() ">
+          <h2>Delivery</h2>
+          <p>Place Your Order</p>
+        </div>
+      </section>
+      <section class="sec3" id="sec3">
+        <div id="about1">
+          <img src="imgs/img4.png" class="about-img" />
+          <p>
+            Martin’s products are made with care, using only whole, natural
+            fruits to bring out the best in every bite. From choosing the finest
+            ingredients to perfecting each step of the process, Martin is
+            committed to delivering top-quality products that customers can
+            trust and enjoy. With a focus on tradition and a willingness to
+            innovate, the team at Martin works hard to create something special
+            for everyone. They’re always looking for new ways to improve while
+            staying true to their values of authenticity and quality. Every
+            Martin product is a reflection of their passion for good food and
+            their dedication to making customers happy.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      
+      <div class="contact-info">
+        <h2>Contact Info.</h2>
+        <p>
+          Email: 
+          <a
+            class="email"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=martinjuice.eg@gmail.com" target="_blank">martinjuice.eg@gmail.com</a>
+        </p>
+        <p>Hotline: <a class="hotline" href="tel:16507">16507</a></p>
+        <p>Location: Tanta</p>
+        <a href="https://www.facebook.com/martinjuice.eg" target="_blank"><i class='bx bxl-facebook-circle' style="font-size: 50px;"></i></a>
+        <a href="https://www.instagram.com/martinjuice_/" target="_blank"><i class='bx bxl-instagram'  style="font-size: 50px;"></i></a>
+      </div>
+     
+      <div class="branches">
+        
+       <div id="our1"> <h2>Our branches</h2> </div>
+          <div class="branch">El-Estad Branch: <br> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d362.50371913287097!2d30.9928652!3d30.8167458!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7c9001ae713b3%3A0x4ec305f2278f80c0!2sMartin%20juice!5e1!3m2!1sen!2seg!4v1733605755284!5m2!1sen!2seg" width="170" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <div class="branch">Said Branch: <br> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2900.6546912608187!2d31.001635499999995!3d30.796041199999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7c970d39b75d5%3A0xb63f36b2b5b0a4b5!2smartin%20juice!5e1!3m2!1sen!2seg!4v1733645593153!5m2!1sen!2seg" width="170" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+         <div  class="branch">El-Mathaf Branch: <br><iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d725.182003863566!2d31.0015833!3d30.7936111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDQ3JzM3LjAiTiAzMcKwMDAnMDUuNyJF!5e1!3m2!1sen!2seg!4v1733646085740!5m2!1sen!2seg" width="170" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+      
+    </footer>
+    <div id="rights">
+      <p>&copy; 2025 Martin Juice. All rights reserved.</p>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
+
+
