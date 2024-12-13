@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior:smooth ;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -248,18 +248,18 @@ footer {
 }
 
 .up-btn {
-position: fixed;
-width: 50px;
-height: 50px;
-border-radius: 50px;
-background-color: #ff5100;
-bottom: 40px;
-right: 40px;
-text-decoration: none;
-text-align: center;
-line-height: 55px;
-color: white;
-font-size: 26px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ff5100;
+    bottom: 40px;
+    right: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    font-size: 26px;
 
 
 }
