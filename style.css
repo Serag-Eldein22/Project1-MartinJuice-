@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior:smooth ;
 }
 
 body {
@@ -246,6 +247,23 @@ footer {
 
 }
 
+.up-btn {
+position: fixed;
+width: 50px;
+height: 50px;
+border-radius: 50px;
+background-color: #ff5100;
+bottom: 40px;
+right: 40px;
+text-decoration: none;
+text-align: center;
+line-height: 55px;
+color: white;
+font-size: 26px;
+
+
+}
+
 .contact-info h2 {
     margin: 30px 5px;
     text-decoration: underline;
@@ -287,8 +305,8 @@ footer {
     margin: auto 20px;
 }
 
-#our1 h2{
-margin-top: 30px;
+#our1 h2 {
+    margin-top: 30px;
     margin-bottom: 130px;
     text-decoration: underline;
     color: #e65614;
@@ -346,7 +364,7 @@ margin-top: 30px;
     }
 
     .btn-order {
-        margin-left: 230px;
+        margin-left: 270px;
 
     }
 
@@ -354,18 +372,19 @@ margin-top: 30px;
         width: 100%;
         font-size: 20px;
         margin: 20px auto;
-      
+
         text-align: center;
     }
+
     .txt1 {
 
         margin-right: 360px;
-    
+
     }
-    
+
     .txt2 {
-        margin-left:360px;
-    
+        margin-left: 360px;
+
     }
 
     .slideshow-container {
@@ -379,14 +398,15 @@ margin-top: 30px;
     }
 
     .order-now {
-        flex-direction: row;
+        display: block;
         gap: 40px;
-        margin-top: 270px;
+        margin-top: 320px;
     }
 
     .sec2 {
         width: 90%;
         margin: 20px auto;
+
     }
 
     #about1 {
@@ -400,15 +420,17 @@ margin-top: 30px;
         margin-top: 20px;
         rotate: 0deg;
     }
-    .sec3{
+
+    .sec3 {
         margin-top: 200px;
     }
+
     .sec3 p {
         font-weight: bold;
         text-align: justify;
         margin-top: 100px;
         overflow: hidden;
-    
+
     }
 
     footer {
@@ -419,17 +441,19 @@ margin-top: 30px;
 
     .contact-info,
     .branches {
-        margin-bottom: 150px;
+        margin-bottom: 190px;
     }
-    #our1 h2{
-   margin-left: 40px;
+
+    #our1 h2 {
+        margin-left: 40px;
         text-decoration: underline;
         color: #e65614;
-        
+
     }
-    
+
     #rights {
-        padding: 10px;
+
         font-size: 12px;
+        padding-bottom: 100px;
     }
 }
